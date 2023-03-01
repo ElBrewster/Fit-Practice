@@ -1,4 +1,5 @@
 import express from "express";
+
 const router = express.Router();
 
 router.get(`/`, function (req, res) {
@@ -18,3 +19,6 @@ router.delete(`/`, function (req, res) {
 });
 
 export default router;
+
+//npm run server
+//go to: http://localhost:5500/hello
